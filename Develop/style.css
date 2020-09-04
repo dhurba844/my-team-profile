@@ -1,0 +1,60 @@
+.jumbotron{
+    background-image: linear-gradient(to bottom, rgb(110, 102, 30), rgba(0,190,190), rgba(30,110,110));
+    border-radius: 0px;
+    color: white;
+  }
+  
+  .jumbotron>h1{
+    font-size: 60px;
+  }
+  
+  body{
+    background: radial-gradient(ellipse at top, rgba(190,190,190), rgba(40,40,40) 100%, transparent);
+    padding-bottom: 100px;
+    height: 100%;
+    min-height: 100vh;
+  }
+
+  .row{
+    height: max-content;
+  }
+  
+  .card{
+    margin-top: 25px;
+    border: 0px;
+    background-color: rgba(0,0,0,0);
+    padding: 10px 15px;
+    min-width: 300px;
+   }
+  
+  .card-body{
+    background-color: rgba(30, 110, 110, 0);
+    padding: 0px;
+    width: 100%;
+  }
+  
+  .card-header{
+    background-image: linear-gradient(to bottom, rgb(110, 42, 30), rgba(0,190,190), rgb(33, 110, 30));
+    text-align: center;
+    color: white;
+  }
+  
+  .card-header>h2{
+    font-weight: bold;
+  }
+  
+  .list-group-item:first-child{
+    border-radius: 0px;
+  }
+  
+  .list-group-item{
+    color: white;
+    background-color: rgba(0,190,190,0.15);
+    padding: 1rem;
+    border-radius: 0px;
+  }
+  
+  .list-group-item>a{
+    text-decoration: none;
+    color: rgba(170,240,240);
+  }
